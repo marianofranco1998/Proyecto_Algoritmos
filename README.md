@@ -56,6 +56,8 @@ La cantidad de datos que recibe el algoritmo también es muy importante. Algunos
 
 ## ¿Qué datos se utilizaron? <a name="6"></a>
 
+Para probar los algoritmos se utilizó el archivo `movie_titles.txt`, una lista del nombre, el código, y la fecha de estreno de más de 10000 películas. Se creo un [objeto](https://es.wikipedia.org/wiki/Objeto_(programaci%C3%B3n)) `Movie` con tres atributos: `nombre`,`codigo`, y `año`. Se selecciono el valor [ASCII](https://es.wikipedia.org/wiki/ASCII) de `nombre` como el criterio de comparación para el objeto.
+
 ## ¿Cuál fue la metodología? <a name="7"></a>
 
 ## ¿Cuáles fueron los resultados? <a name="8"></a>
