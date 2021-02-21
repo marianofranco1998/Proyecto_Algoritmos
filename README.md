@@ -12,6 +12,7 @@ Este proyecto consiste en un Jupyter Notebook con implementación en Python de 6
 * [¿Qué datos se utilizaron?](#6)
 * [¿Cuál fue la metodología?](#7)
 * [¿Cuáles fueron los resultados?](#8)
+* [¿Qué se entrego?](#9)
 
 ## ¿Qué es un algoritmo de ordenamiento? <a name="1"></a>
 
@@ -60,16 +61,21 @@ Para probar los algoritmos se utilizó el archivo `movie_titles.txt`, una lista 
 
 ## ¿Cuál fue la metodología? <a name="7"></a>
 
+La metodología de esta prueba se diseño para incluir__
+
 ## ¿Cuáles fueron los resultados? <a name="8"></a>
 
-### Número de Comparaciones
+El Jupyter Notbook produjo las siguientes gráficas.
+
+### Eje-Y: Número de Comparaciones
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A1.png "A1")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A2.png "A2")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A3.png "A3")
 
-### Tiempo Tardado
+### Eje-Y: Tiempo Tardado
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B1.png "B1")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B2.png "B2")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B3.png "B3")
 
-
+## ¿Qué se entrego? <a name="9"></a>
+[Este reporte](https://docs.google.com/document/d/1AarI4mo9nCETtxMMcOIzXVIFglF7Dm8Lc7BkU_PTyoc/edit?usp=sharing) se entrego después de la terminación del proyecto.
