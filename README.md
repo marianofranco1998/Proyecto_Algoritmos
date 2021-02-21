@@ -10,7 +10,8 @@ Este proyecto consiste en un Jupyter Notebook con implementación en Python de 6
 * [¿Importa el orden en el cuál el algoritmo recibe los datos?](#4)
 * [¿Importa la cantidad de datos que recibe el algoritmo?](#5)
 * [¿Qué datos se utilizaron?](#6)
-* [Resultados](#7)
+* [¿Cuál fue la metodología?](#7)
+* [¿Cuáles fueron los resultados?](#8)
 
 ## ¿Qué es un algoritmo de ordenamiento? <a name="1"></a>
 
@@ -55,9 +56,9 @@ La cantidad de datos que recibe el algoritmo también es muy importante. Algunos
 
 ## ¿Qué datos se utilizaron? <a name="6"></a>
 
-## Metodología
+## ¿Cuál fue la metodología? <a name="7"></a>
 
-## Resultados <a name="7"></a>
+## ¿Cuáles fueron los resultados? <a name="8"></a>
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A1.png "A1")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A2.png "A2")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A3.png "A3")
