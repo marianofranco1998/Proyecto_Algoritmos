@@ -63,6 +63,8 @@ Para probar los algoritmos se utilizó el archivo `movie_titles.txt`, una lista 
 
 La metodología de esta prueba se diseño para incluir__
 
+![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/Decision_Tree.png "A3")
+
 ## ¿Cuáles fueron los resultados? <a name="8"></a>
 
 El Jupyter Notbook produjo las siguientes gráficas.
