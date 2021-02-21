@@ -10,7 +10,7 @@ Este proyecto consiste en un Jupyter Notebook con implementación en Python de 6
 * [¿Importa el orden en el cuál el algoritmo recibe los datos?](#4)
 * [¿Importa la cantidad de datos que recibe el algoritmo?](#5)
 * [¿Qué datos se utilizaron?](#6)
-* [Resultados:](#7)
+* [Resultados](#7)
 
 ## ¿Qué es un algoritmo de ordenamiento? <a name="1"></a>
 
@@ -37,11 +37,27 @@ Hay dos métricas que podemos utilizar para determinar la eficiencia de un algor
 
 ## ¿Importa el orden en el cuál el algoritmo recibe los datos? <a name="4"></a>
 
+El orden en el cuál el algoritmo recibe los datos es muy importante. Algunos algoritmos tienen ventaja si reciben sus datos ordenados, mientras que otros muestran mejor desempeño con datos más mezclados. Debido a esto, evaluamos el desempeño de cada algoritmo con tres tipos de ordenes inciales de los datos:
+
+1. Ordenado
+2. Orden Inverso
+3. Orden Aleatorio
+
 ## ¿Importa la cantidad de datos que recibe el algoritmo? <a name="5"></a>
+
+La cantidad de datos que recibe el algoritmo también es muy importante. Algunos algoritmos son muy eficientes con una pequeña cantidad pero se alentan mucho cuando reciben muchos datos. Por otro lado, hay algunos algoritmos que tienen mejor desempeño con muchos datos pero tienen un mal desempeño comparativo con cantidades de datos pequeñas. Por lo tanto, cada prueba se llevo a cabo con arreglos de datos de 5 distintos tamaños:
+
+1. 100
+2. 1000 
+3. 2500 
+4. 5000 
+5. 10000
 
 ## ¿Qué datos se utilizaron? <a name="6"></a>
 
-## Resultados: <a name="7"></a>
+## Metodología
+
+## Resultados <a name="7"></a>
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A1.png "A1")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A2.png "A2")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A3.png "A3")
