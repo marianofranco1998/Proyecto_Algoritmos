@@ -33,8 +33,8 @@ Dentro de este proyecto se evaluaron 6 algoritmos diferentes. No es indispensabl
 ## ¿Qué hace que un algoritmo sea eficiente? <a name="3"></a>
 
 Hay dos métricas que podemos utilizar para determinar la eficiencia de un algoritmo: tiempo tardado y número de comparaciones.
-1. **Tiempo Tardado:** Esto simplemente se refiere a la cantidad de tiempo (en segundos) que el algoritmo tarda en reordenar los datos que recibe.
-2. **Número de Comparaciones:** Esto se refiere a la cantidad de veces que el algoritmo evalua una operación [booleana](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana), la mayoría de las veces esto ocurre dentro de una [estructura de control](https://es.wikipedia.org/wiki/Estructuras_de_control) simple (`if-else`) o dentro de la condición asignada de un [bucle](https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#:~:text=Un%20bucle%20o%20ciclo%2C%20en,y%20el%20bucle%20do%2Dwhile.) (`for`, `while`).
+1. **Número de Comparaciones:** Esto se refiere a la cantidad de veces que el algoritmo evalua una operación [booleana](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana), la mayoría de las veces esto ocurre dentro de una [estructura de control](https://es.wikipedia.org/wiki/Estructuras_de_control) simple (`if-else`) o dentro de la condición asignada de un [bucle](https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#:~:text=Un%20bucle%20o%20ciclo%2C%20en,y%20el%20bucle%20do%2Dwhile.) (`for`, `while`).
+2. **Tiempo Tardado:** Esto simplemente se refiere a la cantidad de tiempo (en segundos) que el algoritmo tarda en reordenar los datos que recibe.
 
 ## ¿Importa el orden en el cuál el algoritmo recibe los datos? <a name="4"></a>
 
@@ -61,12 +61,15 @@ Para probar los algoritmos se utilizó el archivo `movie_titles.txt`, una lista 
 ## ¿Cuál fue la metodología? <a name="7"></a>
 
 ## ¿Cuáles fueron los resultados? <a name="8"></a>
+
 ### Número de Comparaciones
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B1.png "B1")
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B2.png "B2")
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B3.png "B3")
-### Tiempo Tardado
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A1.png "A1")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A2.png "A2")
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A3.png "A3")
+
+### Tiempo Tardado
+![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B1.png "B1")
+![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B2.png "B2")
+![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B3.png "B3")
+
 
