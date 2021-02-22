@@ -61,13 +61,17 @@ Para probar los algoritmos se utilizó el archivo `movie_titles.txt`, una lista 
 
 ## ¿Cuál fue la metodología? <a name="7"></a>
 
-La metodología de esta prueba se diseño para incluir__
+Cada prueba consistió en correr un algoritmo con una selección de datos específica, contando el tiempo para completar y el número de operaciones.
+
+Se llevaron a cabo 72 pruebas en total, variando 3 factores distintos: orden de los datos, número de datos, y algoritmo utilizado. El siguiente árbol ilustra esto:
 
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/Decision_Tree_1.png "Diagrama")
 
+Para los datos en orden aleatorio, se registro como prueba el promedio de número de comparaciones y tiempo tardado de 30 pruebas consecutivas. Esto se hizo para obtener una expectativa razonable de estos dos valores. Hacer solamente una prueba con datos aleatorios resultaría en gráficas muy distintas cada vez que se corre el Jupyter Notebook.
+
 ## ¿Cuáles fueron los resultados? <a name="8"></a>
 
-El Jupyter Notbook produjo las siguientes gráficas.
+Al final se producieron 6 gráficas, todas con el número de datos como el eje x. 3 de estas tenían número de comparaciones en el eje y y 3 tenían en el eje y. Dentro de casa gráfica se crearon 6 subgráficas, una para cada uno de los algoritmos de ordenamiento diferentes. El Jupyter Notbook produjo las siguientes gráficas.
 
 ### Eje-Y: Número de Comparaciones
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A1.png "A1")
