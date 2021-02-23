@@ -16,7 +16,7 @@ Este proyecto consiste en un Jupyter Notebook con implementación en Python de 6
 
 ## ¿Qué es un algoritmo de ordenamiento? <a name="1"></a>
 
-Una algoritmo de ordenamiento se utiliza para reorganizar un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos/elementos de acuerdo a un criterio de comparación. Un criterio de comparación es esencialmente una [función](https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica#:~:text=La%20definici%C3%B3n%20general%20de%20funci%C3%B3n,un%20%C3%BAnico%20elemento%20de%20B.) que dada un dato/elemento, regresa un valor numerico. Un algoritmo de ordenamiento reordena un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos/elementos, colocando los datos/elementos en un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) nuevo en orden ascendiente de acuerdo al criterio de comparación.
+Una algoritmo de ordenamiento se utiliza para reorganizar un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos/elementos de acuerdo a un criterio de comparación. Un criterio de comparación es esencialmente una [función](https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica#:~:text=La%20definici%C3%B3n%20general%20de%20funci%C3%B3n,un%20%C3%BAnico%20elemento%20de%20B.) que dada un dato/elemento, regresa un valor numérico. Un algoritmo de ordenamiento reordena un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos/elementos, colocando los datos/elementos en un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) nuevo en orden ascendiente de acuerdo al criterio de comparación.
 
 [Leer GeeksforGeeks para obtener más información.](https://www.geeksforgeeks.org/sorting-algorithms/)
 
@@ -71,7 +71,7 @@ Para los datos en orden aleatorio, se registro como prueba el promedio de númer
 
 ## ¿Cuáles fueron los resultados? <a name="8"></a>
 
-Al final se producieron 6 gráficas, todas con el número de datos como el eje x. 3 de estas tenían número de comparaciones en el eje y y 3 tenían en el eje y. Dentro de casa gráfica se crearon 6 subgráficas, una para cada uno de los algoritmos de ordenamiento diferentes. El Jupyter Notbook produjo las siguientes gráficas.
+Al final se produjeron 6 gráficas, todas con el número de datos como el eje x. 3 de estas tenían número de comparaciones en el eje y y 3 tenían en el eje y. Dentro de cada gráfica se crearon 6 subgráficas, una para cada uno de los algoritmos de ordenamiento diferentes. El Jupyter Notbook produjo las siguientes gráficas.
 
 ### Eje-Y: Número de Comparaciones
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A1.png "A1")
