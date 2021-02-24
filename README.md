@@ -1,4 +1,3 @@
-### Proyecto_Algoritmos
 # Estructuras de Datos Avanzadas: Comparación de Algoritmos de Ordenamiento
 
 Este proyecto consiste en un Jupyter Notebook con implementación en Python de 6 algoritmos de ordenamiento distintos. Al correr el código se generan varias gráficas de línea que se pueden utilizar para evaluar la eficiencia de los algoritmos de programación.
