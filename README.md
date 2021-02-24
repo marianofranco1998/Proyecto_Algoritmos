@@ -73,14 +73,18 @@ Para los datos en orden aleatorio, se registro como prueba el promedio de númer
 Al final se produjeron 6 gráficas, todas con el número de datos como el eje x. 3 de estas tenían número de comparaciones en el eje y y 3 tenían en el eje y. Dentro de cada gráfica se crearon 6 subgráficas, una para cada uno de los algoritmos de ordenamiento diferentes. El Jupyter Notbook produjo las siguientes gráficas.
 
 ### Eje-Y: Número de Comparaciones
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A1.png "A1")
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A2.png "A2")
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A3.png "A3")
+<p float="left">
+  <img src="https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A1.png" width="472" />
+  <img src="https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A2.png" width="472" /> 
+  <img src="https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/A3.png" width="472" />
+</p>
 
 ### Eje-Y: Tiempo Tardado
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B1.png "B1")
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B2.png "B2")
-![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B3.png "B3")
+<p float="left">
+  <img src="https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B1.png" width="472" />
+  <img src="https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B2.png" width="472" /> 
+  <img src="https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/B3.png" width="472" />
+</p>
 
 ## ¿Qué se entrego? <a name="9"></a>
 [Este reporte](https://docs.google.com/document/d/1AarI4mo9nCETtxMMcOIzXVIFglF7Dm8Lc7BkU_PTyoc/edit?usp=sharing) se entrego después de la terminación del proyecto.
