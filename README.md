@@ -15,13 +15,13 @@ Este proyecto consiste en un Jupyter Notebook con implementación en Python de s
 
 ## ¿Qué es un algoritmo de ordenamiento? <a name="1"></a>
 
-Una algoritmo de ordenamiento se utiliza para reorganizar un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos/elementos de acuerdo a un criterio de comparación. Un criterio de comparación es esencialmente una [función](https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica#:~:text=La%20definici%C3%B3n%20general%20de%20funci%C3%B3n,un%20%C3%BAnico%20elemento%20de%20B.) que dada un dato/elemento, regresa un valor numérico. Un algoritmo de ordenamiento reordena un arreglo de datos/elementos, colocando los datos/elementos en un arreglo nuevo en orden ascendiente de acuerdo al criterio de comparación.
+Una algoritmo de ordenamiento se utiliza para reorganizar un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos ó elementos de acuerdo a un criterio de comparación. Un criterio de comparación es esencialmente una [función](https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica#:~:text=La%20definici%C3%B3n%20general%20de%20funci%C3%B3n,un%20%C3%BAnico%20elemento%20de%20B.) que dada un elemento, regresa un valor numérico. Un algoritmo de ordenamiento reordena un arreglo de datos, colocando los datos en un arreglo nuevo en orden ascendiente de acuerdo al criterio de comparación.
 
 [Leer GeeksforGeeks para obtener más información.](https://www.geeksforgeeks.org/sorting-algorithms/)
 
 ## ¿Cuáles algoritmos de ordenamiento fueron evaluados? <a name="2"></a>
 
-Dentro de este proyecto se evaluaron seis algoritmos diferentes. No es indispensable entender las diferencias entre ellos, pero si uno desea aprender más puede presionar el enlace en el nombre de cada algoritmo. Los algoritmos son los siguientes:
+Dentro de este proyecto se evaluaron seis algoritmos diferentes:
 
 1. [Selection Sort](https://www.geeksforgeeks.org/selection-sort/)
 2. [Insertion Sort](https://www.geeksforgeeks.org/insertion-sort/)
@@ -32,13 +32,13 @@ Dentro de este proyecto se evaluaron seis algoritmos diferentes. No es indispens
 
 ## ¿Qué hace que un algoritmo sea eficiente? <a name="3"></a>
 
-Hay dos métricas que podemos utilizar para determinar la eficiencia de un algoritmo: tiempo tardado y número de comparaciones.
-1. **Número de Comparaciones:** Esto se refiere a la cantidad de veces que el algoritmo evalua una operación [booleana](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana), la mayoría de las veces esto ocurre dentro de una [estructura de control](https://es.wikipedia.org/wiki/Estructuras_de_control) simple (`if-else`) o dentro de la condición asignada de un [bucle](https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#:~:text=Un%20bucle%20o%20ciclo%2C%20en,y%20el%20bucle%20do%2Dwhile.) (`for`, `while`).
-2. **Tiempo Tardado:** Esto simplemente se refiere a la cantidad de tiempo (en segundos) que el algoritmo tarda en reordenar los datos que recibe.
+Hay dos métricas que podemos utilizar para determinar la eficiencia de un algoritmo:
+1. **Número de Comparaciones:** Se refiere a la cantidad de veces que el algoritmo evalua una operación [booleana](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana), la mayoría de las veces esto ocurre dentro de una [estructura de control](https://es.wikipedia.org/wiki/Estructuras_de_control) simple (`if-else`) o dentro de la condición asignada de un [bucle](https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#:~:text=Un%20bucle%20o%20ciclo%2C%20en,y%20el%20bucle%20do%2Dwhile.) (`for`, `while`).
+2. **Tiempo Tardado:** Se refiere a la cantidad de tiempo (en segundos) que el algoritmo tarda en reordenar los datos que recibe.
 
 ## ¿Importa el orden en el cuál el algoritmo recibe los datos? <a name="4"></a>
 
-El orden en el cuál el algoritmo recibe los datos es muy importante. Algunos algoritmos tienen ventaja si reciben sus datos ordenados, mientras que otros muestran mejor desempeño con datos más mezclados. Debido a esto, evaluamos el desempeño de cada algoritmo con tres tipos de ordenes inciales de los datos:
+El orden en el cuál el algoritmo recibe los datos es importante. Algunos algoritmos tienen ventaja si reciben sus datos ordenados, mientras que otros muestran mejor desempeño con datos más mezclados. Debido a este hecho, evaluamos el desempeño de cada algoritmo con tres tipos de ordenes inciales de los datos:
 
 1. Ordenado
 2. Orden Inverso
@@ -46,7 +46,7 @@ El orden en el cuál el algoritmo recibe los datos es muy importante. Algunos al
 
 ## ¿Importa la cantidad de datos que recibe el algoritmo? <a name="5"></a>
 
-La cantidad de datos que recibe el algoritmo también es muy importante. Algunos algoritmos son muy eficientes con una pequeña cantidad pero se alentan mucho cuando reciben muchos datos. Por otro lado, hay algunos algoritmos que tienen mejor desempeño con muchos datos pero tienen un mal desempeño comparativo con cantidades de datos pequeñas. Por lo tanto, cada prueba se llevo a cabo con arreglos de datos de cinco distintos tamaños:
+La cantidad de datos que recibe el algoritmo también es importante. Algunos algoritmos son eficientes con una pequeña cantidad pero se alentan mucho cuando reciben muchos datos. Por otro lado, hay algunos algoritmos que tienen mejor desempeño con muchos datos pero tienen un mal desempeño comparativo con cantidades de datos pequeñas. Por lo tanto, cada prueba se llevo a cabo con arreglos de datos de cinco distintos tamaños:
 
 1. 100
 2. 1000 
@@ -66,7 +66,7 @@ Se llevaron a cabo 72 pruebas en total, variando tres factores distintos: orden 
 
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/Decision_Tree_1.png "Diagrama")
 
-Para los datos en orden aleatorio, se registro como prueba el promedio de número de comparaciones y tiempo tardado de 30 pruebas consecutivas. Esto se hizo para obtener una expectativa razonable de estos dos valores. Hacer solamente una prueba con datos aleatorios resultaría en gráficas muy distintas cada vez que se corre el Jupyter Notebook.
+Para los datos en orden aleatorio, se registro como prueba el promedio de número de comparaciones y tiempo tardado de 30 pruebas consecutivas. Estas pruebas se hicieron para obtener una expectativa razonable de estos dos valores. Hacer solamente una prueba con datos aleatorios resultaría en gráficas muy distintas cada vez que se corre el Jupyter Notebook.
 
 ## ¿Cuáles fueron los resultados? <a name="8"></a>
 
