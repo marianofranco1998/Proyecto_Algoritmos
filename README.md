@@ -46,7 +46,7 @@ El orden en el cual el algoritmo recibe los datos es importante. Algunos algorit
 
 ## ¿Importa la cantidad de datos que recibe el algoritmo? <a name="5"></a>
 
-La cantidad de datos que recibe el algoritmo también es importante. Algunos algoritmos son eficientes con una pequeña cantidad pero se alentan mucho cuando reciben muchos datos. Por otro lado, hay algunos algoritmos que tienen mejor desempeño con muchos datos pero tienen un mal desempeño comparativo con cantidades de datos pequeñas. Por lo tanto, cada prueba se llevo a cabo con arreglos de datos de cinco distintos tamaños:
+La cantidad de datos que recibe el algoritmo también es importante. Algunos algoritmos son eficientes con una pequeña cantidad pero se desaceleran mucho cuando reciben muchos datos. Por otro lado, hay algunos algoritmos que tienen mejor desempeño con muchos datos pero tienen un mal desempeño comparativo con cantidades de datos pequeñas. Por lo tanto, cada prueba se llevo a cabo con arreglos de datos de cinco distintos tamaños:
 
 1. 100
 2. 1000 
@@ -56,7 +56,7 @@ La cantidad de datos que recibe el algoritmo también es importante. Algunos alg
 
 ## ¿Qué datos se utilizaron? <a name="6"></a>
 
-Para probar los algoritmos se utilizó el archivo `movie_titles.txt`, una lista del nombre, el código, y la fecha de estreno de más de 10000 películas. Se creo un [objeto](https://es.wikipedia.org/wiki/Objeto_(programaci%C3%B3n)) `Movie` con tres atributos: `nombre`,`codigo`, y `año`. Se selecciono el valor [ASCII](https://es.wikipedia.org/wiki/ASCII) de `nombre` como el criterio de comparación para el objeto.
+Para probar los algoritmos se utilizó el archivo `movie_titles.txt`, una lista del nombre, el código, y la fecha de estreno de más de 10000 películas. Se creo un [objeto](https://es.wikipedia.org/wiki/Objeto_(programaci%C3%B3n)) `Movie` con tres atributos: `nombre`,`código`, y `año`. Se selecciono el valor [ASCII](https://es.wikipedia.org/wiki/ASCII) de `nombre` como el criterio de comparación para el objeto.
 
 ## ¿Cuál fue la metodología? <a name="7"></a>
 
