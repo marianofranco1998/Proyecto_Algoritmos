@@ -1,6 +1,6 @@
 # Estructuras de Datos Avanzadas: Comparación de Algoritmos de Ordenamiento
 
-Este proyecto consiste en un Jupyter Notebook con implementación en Python de 6 algoritmos de ordenamiento distintos. Al correr el código se generan varias gráficas de línea que se pueden utilizar para evaluar la eficiencia de los algoritmos de programación.
+Este proyecto consiste en un Jupyter Notebook con implementación en Python de seis algoritmos de ordenamiento distintos. Al correr el código se generan varias gráficas de línea que se pueden utilizar para evaluar la eficiencia de los algoritmos de programación.
 
 ## Contenido
 * [¿Qué es un algoritmo de ordenamiento?](#1)
@@ -21,7 +21,7 @@ Una algoritmo de ordenamiento se utiliza para reorganizar un [arreglo](https://e
 
 ## ¿Cuáles algoritmos de ordenamiento fueron evaluados? <a name="2"></a>
 
-Dentro de este proyecto se evaluaron 6 algoritmos diferentes. No es indispensable entender las diferencias entre ellos, pero si uno desea aprender más puede presionar el enlace en el nombre de cada algoritmo. Los algoritmos son los siguientes:
+Dentro de este proyecto se evaluaron seis algoritmos diferentes. No es indispensable entender las diferencias entre ellos, pero si uno desea aprender más puede presionar el enlace en el nombre de cada algoritmo. Los algoritmos son los siguientes:
 
 1. [Selection Sort](https://www.geeksforgeeks.org/selection-sort/)
 2. [Insertion Sort](https://www.geeksforgeeks.org/insertion-sort/)
@@ -46,7 +46,7 @@ El orden en el cuál el algoritmo recibe los datos es muy importante. Algunos al
 
 ## ¿Importa la cantidad de datos que recibe el algoritmo? <a name="5"></a>
 
-La cantidad de datos que recibe el algoritmo también es muy importante. Algunos algoritmos son muy eficientes con una pequeña cantidad pero se alentan mucho cuando reciben muchos datos. Por otro lado, hay algunos algoritmos que tienen mejor desempeño con muchos datos pero tienen un mal desempeño comparativo con cantidades de datos pequeñas. Por lo tanto, cada prueba se llevo a cabo con arreglos de datos de 5 distintos tamaños:
+La cantidad de datos que recibe el algoritmo también es muy importante. Algunos algoritmos son muy eficientes con una pequeña cantidad pero se alentan mucho cuando reciben muchos datos. Por otro lado, hay algunos algoritmos que tienen mejor desempeño con muchos datos pero tienen un mal desempeño comparativo con cantidades de datos pequeñas. Por lo tanto, cada prueba se llevo a cabo con arreglos de datos de cinco distintos tamaños:
 
 1. 100
 2. 1000 
@@ -70,7 +70,7 @@ Para los datos en orden aleatorio, se registro como prueba el promedio de númer
 
 ## ¿Cuáles fueron los resultados? <a name="8"></a>
 
-Al final se produjeron 6 gráficas, todas con el número de datos como el eje x. 3 de estas tenían número de comparaciones en el eje y y 3 tenían en el eje y. Dentro de cada gráfica se crearon 6 subgráficas, una para cada uno de los algoritmos de ordenamiento diferentes. El Jupyter Notbook produjo las siguientes gráficas.
+Al final se produjeron seis gráficas, todas con el número de datos como el eje x. Tres de estas tenían número de comparaciones en el eje y y tres tenían en el eje y. Dentro de cada gráfica se crearon seis subgráficas, una para cada uno de los algoritmos de ordenamiento diferentes. El Jupyter Notbook produjo las siguientes gráficas.
 
 ### Eje-Y: Número de Comparaciones
 <p float="left">
