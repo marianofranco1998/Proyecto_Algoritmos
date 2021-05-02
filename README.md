@@ -62,7 +62,7 @@ Para probar los algoritmos se utilizó el archivo `movie_titles.txt`, una lista 
 
 Cada prueba consistió en correr un algoritmo con una selección de datos específica, contando el tiempo para completar y el número de operaciones.
 
-Se llevaron a cabo 72 pruebas en total, variando 3 factores distintos: orden de los datos, número de datos, y algoritmo utilizado. El siguiente árbol ilustra esto:
+Se llevaron a cabo 72 pruebas en total, variando tres factores distintos: orden de los datos, número de datos, y algoritmo utilizado. El siguiente árbol ilustra esto:
 
 ![alt text](https://github.com/marianofranco1998/Proyecto_Algoritmos/blob/master/images/Decision_Tree_1.png "Diagrama")
 
