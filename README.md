@@ -17,8 +17,6 @@ Este proyecto consiste en un Jupyter Notebook con implementación en Python de s
 
 Un algoritmo de ordenamiento se utiliza para reorganizar un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos o elementos de acuerdo a un criterio de comparación. Un criterio de comparación es esencialmente una [función](https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica#:~:text=La%20definici%C3%B3n%20general%20de%20funci%C3%B3n,un%20%C3%BAnico%20elemento%20de%20B.) que dada un elemento, regresa un valor numérico. Un algoritmo de ordenamiento reordena un arreglo de datos, colocando los datos en un arreglo nuevo en orden ascendiente de acuerdo al criterio de comparación.
 
-[Leer GeeksforGeeks para obtener más información.](https://www.geeksforgeeks.org/sorting-algorithms/)
-
 ## ¿Cuáles algoritmos de ordenamiento fueron evaluados? <a name="2"></a>
 
 Dentro de este proyecto se evaluaron seis algoritmos diferentes:
