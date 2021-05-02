@@ -6,7 +6,7 @@ Este proyecto consiste en un Jupyter Notebook con implementación en Python de s
 * [¿Qué es un algoritmo de ordenamiento?](#1)
 * [¿Cuáles algoritmos de ordenamiento fueron evaluados?](#2)
 * [¿Qué hace que un algoritmo sea eficiente?](#3)
-* [¿Importa el orden en el cuál el algoritmo recibe los datos?](#4)
+* [¿Importa el orden en el cual el algoritmo recibe los datos?](#4)
 * [¿Importa la cantidad de datos que recibe el algoritmo?](#5)
 * [¿Qué datos se utilizaron?](#6)
 * [¿Cuál fue la metodología?](#7)
@@ -15,7 +15,7 @@ Este proyecto consiste en un Jupyter Notebook con implementación en Python de s
 
 ## ¿Qué es un algoritmo de ordenamiento? <a name="1"></a>
 
-Una algoritmo de ordenamiento se utiliza para reorganizar un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos o elementos de acuerdo a un criterio de comparación. Un criterio de comparación es esencialmente una [función](https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica#:~:text=La%20definici%C3%B3n%20general%20de%20funci%C3%B3n,un%20%C3%BAnico%20elemento%20de%20B.) que dada un elemento, regresa un valor numérico. Un algoritmo de ordenamiento reordena un arreglo de datos, colocando los datos en un arreglo nuevo en orden ascendiente de acuerdo al criterio de comparación.
+Un algoritmo de ordenamiento se utiliza para reorganizar un [arreglo](https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)) de datos o elementos de acuerdo a un criterio de comparación. Un criterio de comparación es esencialmente una [función](https://es.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica#:~:text=La%20definici%C3%B3n%20general%20de%20funci%C3%B3n,un%20%C3%BAnico%20elemento%20de%20B.) que dada un elemento, regresa un valor numérico. Un algoritmo de ordenamiento reordena un arreglo de datos, colocando los datos en un arreglo nuevo en orden ascendiente de acuerdo al criterio de comparación.
 
 [Leer GeeksforGeeks para obtener más información.](https://www.geeksforgeeks.org/sorting-algorithms/)
 
@@ -33,12 +33,12 @@ Dentro de este proyecto se evaluaron seis algoritmos diferentes:
 ## ¿Qué hace que un algoritmo sea eficiente? <a name="3"></a>
 
 Hay dos métricas que podemos utilizar para determinar la eficiencia de un algoritmo:
-1. **Número de Comparaciones:** Se refiere a la cantidad de veces que el algoritmo evalua una operación [booleana](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana), la mayoría de las veces esto ocurre dentro de una [estructura de control](https://es.wikipedia.org/wiki/Estructuras_de_control) simple (`if-else`) o dentro de la condición asignada de un [bucle](https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#:~:text=Un%20bucle%20o%20ciclo%2C%20en,y%20el%20bucle%20do%2Dwhile.) (`for`, `while`).
+1. **Número de Comparaciones:** Se refiere a la cantidad de veces que el algoritmo evalúa una operación [booleana](https://es.wikipedia.org/wiki/Funci%C3%B3n_booleana), la mayoría de las veces esto ocurre dentro de una [estructura de control](https://es.wikipedia.org/wiki/Estructuras_de_control) simple (`if-else`) o dentro de la condición asignada de un [bucle](https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#:~:text=Un%20bucle%20o%20ciclo%2C%20en,y%20el%20bucle%20do%2Dwhile.) (`for`, `while`).
 2. **Tiempo Tardado:** Se refiere a la cantidad de tiempo (en segundos) que el algoritmo tarda en reordenar los datos que recibe.
 
-## ¿Importa el orden en el cuál el algoritmo recibe los datos? <a name="4"></a>
+## ¿Importa el orden en el cual el algoritmo recibe los datos? <a name="4"></a>
 
-El orden en el cuál el algoritmo recibe los datos es importante. Algunos algoritmos tienen ventaja si reciben sus datos ordenados, mientras que otros muestran mejor desempeño con datos más mezclados. Debido a este hecho, evaluamos el desempeño de cada algoritmo con tres tipos de ordenes inciales de los datos:
+El orden en el cual el algoritmo recibe los datos es importante. Algunos algoritmos tienen ventaja si reciben sus datos ordenados, mientras que otros muestran mejor desempeño con datos más mezclados. Debido a este hecho, evaluamos el desempeño de cada algoritmo con tres tipos de órdenes iniciales de los datos:
 
 1. Ordenado
 2. Orden Inverso
